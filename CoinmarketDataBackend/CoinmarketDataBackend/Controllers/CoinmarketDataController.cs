@@ -7,6 +7,7 @@ namespace CoinmarketDataBackend.Controllers
 {
     [Route("[controller]")]
     [ApiController]
+
     public class CoinmarketDataController : ControllerBase
     {
         public CoinmarketDataController(lab360Context context)
